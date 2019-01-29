@@ -1,0 +1,2000 @@
+cat icebuntu 
+wget archive.ubuntu.com/ubuntu/pool/universe/i/icewm-themes/icewm-themes_1.2.26-2_all.deb
+ls
+dpkg -l icewm-themes_1.2.26-2_all.deb 
+apt-get install -f; dpkg -l icewm-themes_1.2.26-2_all.deb 
+ls
+apt-get install -f icewm-themes_1.2.26-2_all.deb 
+dpkg -i icewm-themes_1.2.26-2_all.deb 
+ls
+wget https://sourceforge.net/projects/icewmsilverxp/?source=type_redirect
+ls
+wget https://excellmedia.dl.source.net/project/icewmsilverxp/silverXP/1.2.17-1/silverXP-1.2.17-double-1.tar.bz2
+wget https://excellmedia.dl.sourceforge.net/project/icewmsilverxp/silverXP/1.2.17-1/silverXP-1.2.17-double-1.tar.bz2
+cd /usr/share/applications/
+ls
+vi gedit.desktop 
+vi firefox.desktop 
+q
+cd screensavers/
+ls
+cd ..
+ls
+cd
+show mount
+cd
+rdesktop 13.228.58.90:9833
+apt-get install rdesktop
+rdesktop 13.228.58.90:9833
+ls
+pwd
+cd newcs/
+ls
+ld kstc-newcs
+ll kstc-newcs
+i
+history
+icewm --reload &
+icewm --replace &
+cd
+exit
+cd
+cd /usr/share/icewm/
+ls
+cat README 
+ls
+cat programs 
+ls
+cd taskbar/
+ls
+cd ..
+cd themes/
+ls
+cd ..
+ls
+ll menu 
+vi welocome
+ll welocome
+ls
+ls a-lh
+ls -alh
+ls
+mkdir ideskrc
+cp .ideskrc ideskrc/
+cd ideskrc/
+ls a-lh
+ls -alh
+pwd 
+cat .ideskrc 
+cd ..
+ls
+cp .idesktop/ ideskrc/
+cp -r .idesktop/ ideskrc/
+cd ideskrc/
+ls -alh
+cd .idesktop/
+ls
+cd ..
+zip -r ideskrc.zip ideskrc/
+ls
+killall firefox
+cd
+add-apt-repository "deb http://archive.canonical.com/ precise partner"
+apt -get update
+apt-get update
+apt-get install adobereader-enu
+apt install libxml2:i386 gdebi-core
+wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5-1_i386linux_enu.deb
+ls
+wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5-1_i386linux_enu.deb
+wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+gdebi Adbe*.deb
+gdebi AdbeRdr9.5.5-1_i386linux_enu.deb 
+dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb 
+gdebi AdbeRdr9.5.5-1_i386linux_enu.deb 
+gdebi Adbe*.deb
+apt-get install gdebi -y
+gdebi Adbe*.deb
+gdebi Adbe*.deb -y
+gdebi Adbe*.deb 
+apt-get update
+newcs
+buntu xenial-updates InRelease [109 kB]                            
+Get:3 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]                          
+Get:4 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [796 kB]                  
+Ign:5 http://archive.canonical.com precise InRelease                                                                   
+Get:6 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]                                             
+Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+Hit:8 http://archive.canonical.com precise Release                                                                     
+Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+root@ip-172-31-6-36:~# 
+buntu xenial-updates InRelease [109 kB]                            
+Get:3 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]                          
+Get:4 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [796 kB]                  
+Ign:5 http://archive.canonical.com precise InRelease                                                                   
+Get:6 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]                                             
+Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+Hit:8 http://archive.canonical.com precise Release                                                                     
+Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+root@ip-172-31-6-36:~# 
+bash: Get:6: command not found
+root@ip-172-31-6-36:~# Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+bash: Hit:7: command not found
+root@ip-172-31-6-36:~# Hit:8 http://archive.canonical.com precise Release                                                                     
+bash: Hit:8: command not found
+root@ip-172-31-6-36:~# Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+bash: Hit:10: command not found
+root@ip-172-31-6-36:~# Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+bash: Get:11: command not found
+root@ip-172-31-6-36:~# Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+bash: Ign:11: command not found
+root@ip-172-31-6-36:~# Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+bash: Hit:12: command not found
+root@ip-172-31-6-36:~# Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+bash: Hit:13: command not found
+root@ip-172-31-6-36:~# Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+bash: Hit:14: command not found
+root@ip-172-31-6-36:~# Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+bash: Ign:15: command not found
+root@ip-172-31-6-36:~# Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+bash: Hit:16: command not found
+root@ip-172-31-6-36:~# Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+bash: Ign:17: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# root@ip-172-31-6-36:~# 
+bash: root@ip-172-31-6-36:~#: command not found
+root@ip-172-31-6-36:~# 
+root@ip-172-31-6-36:~# buntu xenial-updates InRelease [109 kB]                            
+bash: buntu: command not found
+root@ip-172-31-6-36:~# Get:3 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]                          
+bash: Get:3: command not found
+root@ip-172-31-6-36:~# Get:4 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [796 kB]                  
+bash: Get:4: command not found
+root@ip-172-31-6-36:~# Ign:5 http://archive.canonical.com precise InRelease                                                                   
+bash: Ign:5: command not found
+root@ip-172-31-6-36:~# Get:6 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]                                             
+bash: Get:6: command not found
+root@ip-172-31-6-36:~# Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+bash: Hit:7: command not found
+root@ip-172-31-6-36:~# Hit:8 http://archive.canonical.com precise Release                                                                     
+bash: Hit:8: command not found
+root@ip-172-31-6-36:~# Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+bash: Hit:10: command not found
+root@ip-172-31-6-36:~# Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+bash: Get:11: command not found
+root@ip-172-31-6-36:~# Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+bash: Ign:11: command not found
+root@ip-172-31-6-36:~# Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+bash: Hit:12: command not found
+root@ip-172-31-6-36:~# Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+bash: Hit:13: command not found
+root@ip-172-31-6-36:~# Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+bash: Hit:14: command not found
+root@ip-172-31-6-36:~# Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+bash: Ign:15: command not found
+root@ip-172-31-6-36:~# Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+bash: Hit:16: command not found
+root@ip-172-31-6-36:~# Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+bash: Ign:17: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# root@ip-172-31-6-36:~# 
+root@ip-172-31-6-36:~# 
+bash: Get:6: command not found
+root@ip-172-31-6-36:~# Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+bash: Hit:7: command not found
+root@ip-172-31-6-36:~# Hit:8 http://archive.canonical.com precise Release                                                                     
+bash: Hit:8: command not found
+root@ip-172-31-6-36:~# Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+bash: Hit:10: command not found
+root@ip-172-31-6-36:~# Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+bash: Get:11: command not found
+root@ip-172-31-6-36:~# Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+bash: Ign:11: command not found
+root@ip-172-31-6-36:~# Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+bash: Hit:12: command not found
+root@ip-172-31-6-36:~# Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+bash: Hit:13: command not found
+root@ip-172-31-6-36:~# Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+bash: Hit:14: command not found
+root@ip-172-31-6-36:~# Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+bash: Ign:15: command not found
+root@ip-172-31-6-36:~# Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+bash: Hit:16: command not found
+root@ip-172-31-6-36:~# Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+bash: Ign:17: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# root@ip-172-31-6-36:~# 
+bash: root@ip-172-31-6-36:~#: command not found
+root@ip-172-31-6-36:~# 
+root@ip-172-31-6-36:~# buntu xenial-updates InRelease [109 kB]                            
+bash: buntu: command not found
+root@ip-172-31-6-36:~# Get:3 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]                          
+bash: Get:3: command not found
+root@ip-172-31-6-36:~# Get:4 http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [796 kB]                  
+bash: Get:4: command not found
+root@ip-172-31-6-36:~# Ign:5 http://archive.canonical.com precise InRelease                                                                   
+bash: Ign:5: command not found
+root@ip-172-31-6-36:~# Get:6 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]                                             
+bash: Get:6: command not found
+root@ip-172-31-6-36:~# Hit:7 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease                                                  
+bash: Hit:7: command not found
+root@ip-172-31-6-36:~# Hit:8 http://archive.canonical.com precise Release                                                                     
+bash: Hit:8: command not found
+root@ip-172-31-6-36:~# Hit:10 http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial InRelease                                             
+bash: Hit:10: command not found
+root@ip-172-31-6-36:~# Get:11 http://repos.codelite.org/ubuntu xenial InRelease [2,855 B]                                                     
+bash: Get:11: command not found
+root@ip-172-31-6-36:~# Ign:11 http://repos.codelite.org/ubuntu xenial InRelease                                           
+bash: Ign:11: command not found
+root@ip-172-31-6-36:~# Hit:12 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease   
+bash: Hit:12: command not found
+root@ip-172-31-6-36:~# Hit:13 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+bash: Hit:13: command not found
+root@ip-172-31-6-36:~# Hit:14 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease  
+bash: Hit:14: command not found
+root@ip-172-31-6-36:~# Ign:15 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial InRelease               
+bash: Ign:15: command not found
+root@ip-172-31-6-36:~# Hit:16 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu xenial InRelease
+bash: Hit:16: command not found
+root@ip-172-31-6-36:~# Ign:17 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial Release
+bash: Ign:17: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US                                          
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en                                             
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages                                             
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages                                               
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# Ign:20 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en_US
+bash: Ign:20: command not found
+root@ip-172-31-6-36:~# Ign:21 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main Translation-en
+bash: Ign:21: command not found
+root@ip-172-31-6-36:~# Ign:18 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main amd64 Packages
+bash: Ign:18: command not found
+root@ip-172-31-6-36:~# Ign:19 http://ppa.launchpad.net/pypa/ppa/ubuntu xenial/main all Packages
+bash: Ign:19: command not found
+root@ip-172-31-6-36:~# root@ip-172-31-6-36:~# 
+root@ip-172-31-6-36:~# 
+which adobereader
+ls
+dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+acroread
+exir
+exit
+cd
+acroread
+exit
+cd
+wget http://ardownload.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+ls
+]ll AdbeRdr9.5.5-1_i386linux_enu.deb
+ld AdbeRdr9.5.5-1_i386linux_enu.deb
+ls
+chmod AdbeRdr9.5.5-1_i386linux_enu.deb
+chmod 777 AdbeRdr9.5.5-1_i386linux_enu.deb
+dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
+ls
+apt-get -f install
+apt-get install libgtk2.0-0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns libxml2:i386 libxslt1.1:i386 libstdc++6:i386
+apt-get install gtk2-engines-murrine:i386 libcanberra-gtk-module:i386 libatk-adaptor:i386 libgail-common:i386 -y
+add-apt-repository "deb http://archive.canonical.com/ precise partner"
+apt-get install adobereader-enu -y
+apt-get install gdebi
+ls
+gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+apt-get install libgtk2.0.0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns* libxml2:i386 libxsltl:i386 libstdc++6:i386
+gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+dpkg--add-architecture i386
+dpkg --add-architecture i386
+aapt-get update
+apt-get update
+apt-get install libgtk2.0.0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns* libxml2:i386 libxsltl:i386 libstdc++6:i386
+dpkg --add-architecture i386
+gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+which adobereader
+find / -name adobe
+cd /opt/
+ls
+cd A
+cd Adobe/
+ls
+cd Reader9/
+ls
+cd bin/
+ls
+cd acroread 
+cat acroread 
+ls
+cd ..
+ls
+cd Reader/
+ls
+cd ..
+ls
+history 
+exitcd
+cd
+history
+cd
+cd /usr/share/icewm/menu 
+vi /usr/share/icewm/menu 
+cd
+history 
+cd
+pwd
+exit
+cd
+cd /usr/share/maven-repo/org/apache/tomcat/
+ls
+cd tomcat-
+cd tomcat-api/
+ls
+cd..
+cd ..
+ls
+cd
+apt-get update
+apt-get install tomcat -y
+apt-get install tomcat8 -y
+service tomcat8 start
+exit
+cd
+jmap -heap 12407
+cd /var/log/
+ls
+cat tomcat8/
+cd tomcat8/
+ls
+exit
+cd
+history 
+find / -name tomcat
+find / -name tomcat.log
+cd /usr/local/
+ls
+ccd
+tail -f /var/log
+cd /var/log
+ls
+cd apache2/
+ls
+tomcat -v
+tomcat --v
+find / -name tomcat
+cd /etc/
+ls
+ps -ef | grep tomcat
+ps -ef | grep tomcat8
+find / -name tomcat8/
+find / -name tomcat
+find / -name tomcat8/
+ps tomcat
+top
+cd
+ps -ef | grep tomcat8
+jmap -heap 12407
+jmap-heap 12407
+jmap -heap 12407
+ps -ef | grep tomcat8
+java -version
+jmap -heap 14800
+jmap -heap 12407
+exit
+cd
+jmap -heap 12407
+jmap -heap:format=b 12407
+jmap -heap 12407
+cd
+ls
+jmap -heap 12407
+jmap -heap 14579
+ls
+cd /mnt/
+ls
+cat output1.csv 
+cd
+jmap -heap 12407
+jmap -heap 14579
+jmap -heap:format-b 14579
+jmap -heap:format=b 14579
+jmap -heap 14579
+java --version
+java -version
+jmap -heap 14579
+java -version
+ls
+cd bin/
+ls
+cat java
+ls
+which java
+jmap -heap 14579
+cd .
+cd ..
+ls
+cd ..
+cd usr/
+ls
+jmap -heap 14579
+cd
+find / -name java jdk
+find / - name java
+find / - name javajdk
+jmap -heap 14579
+java -version
+dpkg -l java
+dpkg -l java jdk
+jmap -heap 14579
+ps -ef 
+ps -ef | grep java
+ps -ef | grep javajdk
+apt-get update
+apt-get install default-jdk -y
+apt-get install default-jdk
+apt-get install default-jre
+add-apt-repository ppa:webupd8team/java
+apt-get update
+apt-get install default-jdk
+apt-get install oracle-java8-installer
+ps -ef | grep javajdk
+jmap -heap 14579
+ps -ef | grep javajdk
+jmap -heap 14579
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+chmod +x tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+clear
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+clear
+./tomcat-jmap.sh
+clear
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+vi output.csv
+ls
+vi tomcat-jmap.sh
+./tomcat-jmap.sh
+ls
+cat output.csv
+vi tomcat-jmap.sh
+pwd
+cd /mnt/
+ls
+cd
+ls
+cp output.cs /mnt/
+cp output.csv /mnt/
+cd /mnt/
+ls
+cat output.csv 
+cd
+ls
+vi tomcat-jmap.sh
+cd /m
+cd /mnt/
+cat output1.csv 
+cd
+ls
+vi tomcat-jmap.sh
+cd /tmp/
+ls
+cat output1.csv 
+cd
+./tomcat-jmap.sh
+ls
+cat output.csv 
+ls
+cat output.csV 
+rm output.csV
+ls
+vi tomcat-jmap.sh
+cd
+ls
+vi output.csv 
+cd
+cd /mnt/
+ls
+cd
+ls
+cat heap.bin 
+ls
+vi tomcat-jmap.sh 
+timestamp=$(date +%s)
+timestamp=$( date +%s)
+vi time.sh
+`date "+%y%m%d"`
+echo `date "+%y%m%d"`
+echo `date "+%y-%m-%d"`
+vi tomcat-jmap.sh 
+cp tomcat-jmap.sh /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat output.csv 
+`date "+Y-%m-%d %H:%M:%S"`
+echo `date "+Y-%m-%d %H:%M:%S"`
+echo `date "+y-%m-%d %H:%M:%S"`
+echo `date "+%y-%m-%d %H:%M:%S"`
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat output.csv 
+echo `date "+%y-%m-%d %H:%M:%S"`
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi time.sh
+touch one
+chmod +x time.sh
+./time.sh
+cat one
+cat one 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cd
+cat output.csv 
+vi output.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat output.csv 
+vi tomcat-jmap.sh 
+vi combind.sh
+touch example.txt
+vi example.txt
+vi output.csv 
+vi example.txt
+chmod +x combind.sh
+./combind.sh
+vi combind.sh
+./combind.sh
+cat example_out.csv
+vi combind.sh
+./combind.sh
+vi combind.sh
+./combind.sh
+ls
+cat example_out.
+cat example_out.txt 
+vi combind.sh
+vi tomcat-jmap.sh 
+vi combind.sh
+./combind.sh
+cat example_out.txt 
+vi combind.sh
+./combind.sh
+cat example_out.txt 
+vi combind.sh
+cat exampletest.txt 
+vi combind.sh
+./combind.sh
+vi combind.sh
+vi tomcat-jmap.sh 
+vi combind.sh
+./combind.sh
+vi combind.sh
+ls
+cat example_out.txt 
+vi combind.sh
+vi tomcat-jmap.sh 
+vi combind.sh
+./combind.sh
+vi combind.sh
+./tomcat-jmap.sh 
+cat output.csv 
+date
+vi tomcat-jmap.sh 
+vi combind.sh
+vi tomcat-jmap.sh 
+vi combind.sh
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cat input.txt 
+date
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat input.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi combind.sh
+cat input.txt | sed "s/=//g" | cat example_out.txt |#sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file |#sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+vi tomcat-jmap.sh 
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`amp;`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/g"
+cat input.txt 
+cat input.txt | sed "s/=//g" | cat input.txt| sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat input.txt | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" 
+cat input.txt | sed "s/=//g" | cat file 
+cat input.txt | sed "s/=//g" | cat input.txt 
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*//g"
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+column -t -s: input.txt 
+column input.txt 
+cd /mt
+cd /mnt/
+ls
+cat output1.csv 
+cd
+ls
+vi tomcat-jmap.sh 
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+cat input.txt | sed "s/=//g" | cat file |
+cat input.txt | sed "s/=//g" | cat file 
+cat input.txt | sed "s/=//g" 
+cat input.txt | sed "s/=//g" | cat file 
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/`&`/g"
+sar
+vi tomcat-jmap.sh 
+cat input.txt | sed "s/=//g" | cat file | sed "s/[^][^]*/'&'/g"
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cat input.txt | sed "s/=//g" | cat file 
+cat input.txt | sed "s/=//g" 
+cat input.txt | sed "s/=//g" | cat input.txt 
+cat input.txt | sed "s/=//g" | cat input.txt | sed "s/[^][^]*/'&'/g"
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat output.csv 
+vi tomcat-jmap.sh 
+cd
+vi tomcat-jmap.sh 
+cat input.txt | sed "s/=//g" | cat input.txt | sed "s/[^][^]*/'&'/g"
+vi tomcat-jmap.sh 
+cd
+vi tomcat-jmap.sh 
+cd
+cat input.txt | sed "s/=//g" | cat input.txt | sed "s/[^][^]*/'&'/g"
+vi tomcat-jmap.sh 
+cd
+ls
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+ls
+cat output.csv 
+vi tomcat-jmap.sh 
+cat input.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+ls
+cat input.txt 
+pwd
+cp input.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+ls
+cat result.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat result.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+ls
+cat result.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat result.txt 
+vi tomcat-jmap.sh 
+cp result.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp result.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp result1.txt /mnt
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp result1.txt /mnt
+cat result1.txt 
+vi tomcat-jmap.sh 
+sed -i 's/=/\n/g' result.txt 
+sed -i 's/=/\n/g' result.txt > final.csv
+cat final.csv 
+cat result.txt 
+ls
+vi result.txt 
+cp result.txt /mnt/
+vi tomcat-jmap.sh 
+sed -i 's/=/\n/g' result.txt > final.csv
+cat final.csv 
+cat result.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh cat input.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat result.txt 
+vi tomcat-jmap.sh 
+sed -i 's/=/\n/g' result.txt > final.csv
+cat final.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat intermediate.txt 
+cp intermediate.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp resultfrm.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cp resultfrm.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp finalcsv.txt /tmp/
+cp finalcsv.txt /mnt/
+vi tomcat-jmap.sh 
+cat resultfrm.txt 
+cp resultfrm.txt /mnt
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp resultfrm.txt /mnt/
+vi tomcat-jmap.sh 
+jmap -heap 14579
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+mysql
+exit
+mysql
+exit
+cd
+cd /opt/
+ls
+systemctl enable apache2 mariadb
+systemctl enable apache2 mariadb-server
+systemctl start apache2 mysql
+ps -ef | grep apache2
+ps -ef | grep mariadb
+ps -ef | grep mariadb-server
+systemctl enable apache2 mariadb
+systemctl enable apache mariadb
+sudo systemctl enable apache mariadb
+sudo systemctl enable apache2 mariadb
+enable apache2 
+sudo systemctl enable apache2 mariadb]
+user add pbb
+useradd pbb
+vi /etc/sudoers
+su - pbb
+passwd pbb
+su - pbb
+cat /etc/passwd
+cd
+cd /home/
+mkdir pbb
+cd
+usermod -d /home/pbb/ pbb
+su - pbb
+cat /etc/passwd
+chmod -d /home/pbb/ pbb
+mysql
+mysql -u suitecrm -p
+mysql 
+mysql -u suitecrm -p
+cd suitecrm
+use suitecrm
+use suitecrm;
+use suitecrm
+su - suitecrm;
+su - suitecrm
+unzip SuiteCRM-7.9.0.zip
+mkdir suitecrm
+cd suitecrm/
+unzip SuiteCRM-7.9.0.zip
+ls
+ls ..
+cd ..
+ls
+cd suitecrm/
+exit
+
+jmap -heap 14579
+pwd
+cp result.txt /mnt/
+java -version
+vi tomcat-jmap.sh 
+cd
+ls
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+cat resultfrm.txt 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+cat input.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cd /mnt/
+ls
+cd
+vi tomcat-jmap.sh 
+cat /etc/passwd
+
+cd /home/
+ls
+mkdir salce
+ls
+cd
+useradd -d /home/salce/ -s /bin/bash salce
+cat /etc/passwd
+passwd salce
+su salce
+su - salce
+vi /etc/sudoers
+su - salce
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultfrm.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultto.txt 
+vi tomcat-jmap.sh 
+cat resultto.txt 
+vi tomcat-jmap.sh 
+cat resultto.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultto.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat resultto.txt 
+cat resultvaluerow.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finaloutput.txt 
+cp finaloutput.txt /mnt/
+vi tomcat-jmap.sh 
+mysql
+clear
+mysql -u root -p
+mysql;
+clear
+mysql;
+mysql -u user -p pass
+mysql -u user -p 
+ls
+nodejs -v
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+nodejs -v
+npm -v
+ls
+clear
+ls
+vi myfirst.js
+node myfirst.js
+nodejs -v
+ls
+node myfirst.js
+nodejs myfirst.js
+find / -name nodejs
+npm install -g mysql
+find / -name nodejs
+find / -name node_modules
+find / -name node-mysql
+mv ./node_modules/mysql/node_modules/* ./node_modules/
+nodejs myfirst.js
+pwd
+npm install mysql
+npm install -g mysql
+nodejs myfirst.js
+vi myfirst.js
+nodejs myfirst.js
+
+nodejs myfirst.js
+clear
+nodejs myfirst.js
+vi myfirst.js
+nodejs myfirst.js
+vi myfirst.js
+nodejs myfirst.js
+vi myfirst.js
+nodejs myfirst.js
+vi myfirst.js
+nodejs myfirst.js
+ls
+vi myfirst.js
+vi server.js
+nodejs server.js
+vi server.js
+nodejs server.js
+npm install -g express
+express -v
+npm -v
+vi server.js
+nodejs server.js
+npm install  express
+nodejs server.js
+vi server.js
+clear
+nodejs server.js
+vi server.js
+nodejs server.js
+vi server.js
+nodejs server.js
+vi server.js
+ls
+vi myfirst.js
+ls
+vi server1.js
+nodejs server1.js
+vi server1.js
+nodejs server1.js
+ls
+mv server.js server2.js
+ls
+vi server.js
+nodejs server.js
+clear
+nodejs server.js
+vi server.js
+nodejs server.js
+clear
+nodejs server.js
+clear
+nodejs server.js
+http://:8081/api/addassesment
+curl http://localhost:8081/api/addassessment
+http://localhost:8081/api/addassessment
+curl http://localhost:8081/api/addassessment
+curl http://localhost:8081/api/addassesment
+clear
+
+curl -X POST http://localhost:8081/api/addassesment
+curl -X POST http://localhost:8081/api/getassesment/3
+curl http://localhost:8081/api/getassesment/3
+curl -X POST http://localhost:8081/api/getassesment
+clear
+curl http://localhost:8081/api/getassesment/2
+curl http://localhost:8081/api/getassesment/id
+curl http://localhost:8081/api/getassesment/2
+curl -X POST http://localhost:8081/api/addassesment
+curl http://localhost:8081/api/getassesment/2
+curl -X POST http://localhost:8081/api/addassesment
+clear
+curl -X POST http://localhost:8081/api/addassesment
+curl http://localhost:8081/api/getassesment/2
+mysql;
+mysql -u user -p pass
+mysql -u user -p 
+cd
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finaloutput.txt 
+cp finaloutput.txt /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+clear
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+cat finall.csv 
+cat finaloutput.txt 
+vi tomcat-jmap.sh 
+cleare
+clear
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finaloutput.txt 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+clear
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh ]
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat amrutha.csv 
+clear
+vi tomcat-jmap.sh 
+cat finaloutput.txt 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finall.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+clear
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+./tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+cp finallnithin.csv /mnt/
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finallnithin.csv 
+vi tomcat-jmap.sh 
+clear
+./tomcat-jmap.sh 
+cat finalloutput.csv 
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cat finalloutput.csv 
+cp finalloutput.csv /mnt 
+qdate
+date
+vi tomcat-jmap.sh 
+date
+vi tomcat-jmap.sh 
+./tomcat-jmap.sh 
+cp finalloutput.txt /mnt
+cp finalloutput.csv /mnt 
+cd /mnt/
+ls
+cat finall
+cat finalloutput.csv 
+ls
+cd
+ls
+cd suitecrm/
+wget https://suitecrm.com/download/SuiteCRM-7.10.7.ZIP
+wget https://suitecrm.com/download/SuiteCRM-7.10.7.zip
+wget https://suitecrm.com/files/160/suiteCRM-7.10.7/297/SuiteCRM-7.10.7.zip
+unzip SuiteCRM-7.10.7.zip
+sudo mv SuiteCRM-7.9.0 /var/www/html/suitecrm
+mv SuiteCRM-7.10.7 /var/www/html/suitecrm
+chown -R www-data:www-data /var/www/html/suitecrm
+chmod -R 777 /var/www/html/suitecrm
+sudo nano /etc/apache2/sites-available/suitecrm.conf
+vi /etc/apache2/sites-available/suitecrm.conf
+a2ensite suitecrm
+systemctl restart apache2
+systemctl apache2.service
+systemctl apache2.service status
+systemctl status apache2.service 
+systemctl start apache2.service 
+systemctl restart apache2.service 
+systemctl status apache2.service 
+systemctl restart apache2.service 
+a2enmod rewrite
+systemctl restart apache2.service 
+service apache2 restart
+a2enmod rewrite
+systemctl restart apache2.service 
+systemctl restart apache2
+a2ensite suitecrm
+systemctl restart apache2
+cd/
+cd ..
+a2ensite suitecrm
+systemctl restart apache2
+cd suitecrm/
+a2ensite suitecrm
+systemctl restart apache2
+dpkg -l apache2
+which apache2
+ps -ef | grep apache2
+service apache2 start
+systemctl start apache2.service
+apt-get install update
+apt-get update
+apt-get install apache2 -y
+systemctl restart apache2
+systemctl status apache2
+ufw allow 'Apache Full'
+ufw app list
+apt-get install ufw
+ufw app list
+ufw allow 'Apache Full'
+systemctl restart apache2
+systemctl start apache2
+systemctl status apache2
+ufw status
+apachectl stop
+/etc/init.d/apache2 start
+/etc/init.d/apache2 reload
+cd /var/log/apache2/
+ls
+cat error.log
+cd 
+cd /opt/
+ls
+apt autoremove
+apt remove apache2*
+dpkg -l apache2
+dpkg -S `which apache2`
+which apapche2
+apt-get install apache2 -y
+which apache2\
+which apache2
+dpkg -l apache2
+/etc/init.d/apache2 start
+systemctl start apache2
+ufw allow 'Apache Full'
+systemctl start apache2
+systemctl status apache2
+ps -ef | grep apache2
+service apache2 start
+cd /var/log/apache2/error.log
+cat /var/log/apache2/error.log
+systemctl restart apache2
+cd
+history 
+cd suitecrm/
+cd
+cd suitecrm/
+cd /opt/
+whoami
+cd
+cat /etc/passwd
+mysql -u suitecrm -p
+cd suitecrm/
+ls
+whoami
+ls
+systemctl restart apache2
+vi /etc/apache2/sites-available/suitecrm.conf
+a2ensite suitecrm
+systemctl restart apache2
+vi /etc/apache2/sites-available/suitecrm.conf
+a2ensite suitecrm<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+<VirtualHost *:80>
+</VirtualHost>
+a2ensite suitecrm.conf
+a2enmod rewrite
+vi /etc/apache2/sites-available/suitecrm.conf
+a2ensite suitecrm.conf
+a2enmod rewrite
+systemctl restart apache2.service
+vi /etc/apache2/sites-available/suitecrm.conf
+a2ensite suitecrm
+systemctl restart apache2
+vi /etc/apache2/sites-available/suitecrm.conf
+cd /var/www/
+ls
+cd html/
+ls
+cd suitecrm/
+ls
+pw
+pwd
+vi /etc/apache2/sites-available/suitecrm.conf
+systemctl restart apache2
+a2ensite suitecrm
+systemctl restart apache2
+systemctl status apache2.service
+systemctl restart apache2
+cd /var/log/apache2/
+ls
+cat error.log
+systemctl stop apache2.service
+systemctl start apache2.service
+vi /etc/apache2/sites-available/suitecrm.conf
+sed -i "s/options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
+systemctl stop apache2.service
+systemctl start apache2.service
+apt-get install libapache2-mod-php5 php5 -y
+apt-get update
+apt-get install php libapache2-mod-php php-mcrypt php-mysql -y
+vi /etc/apache2/mods-enabled/dir.conf 
+systemctl restart apache2
+systemctl status apache2
+ps -ef | grep apache2
+which curl
+curl localhost
+curl http://localhost
+cd suitecrm/
+cd
+cd suitecrm/
+ls
+cd /var/www/html/suitecrm
+ls
+cat suitecrm.log 
+cd upload/
+ls
+find / -name php.ini
+vi /etc/php/7.0/php.ini
+vi /etc/php/7.0/apache2/php.ini 
+vi /etc/php/7.0/fpm/php.ini 
+systemctl restart apache2
+vi /etc/php/7.0/fpm/php.ini 
+systemctl restart apache2
+apt-get install php5-gd -y
+apt-get update
+apt-get install php5-gd -y
+dpkg -l | grep php
+apt-get install php7.0-gd -y
+systemctl restart apache2
+vi /etc/php/7.0/fpm/php.ini 
+systemctl restart apache2
+vi /etc/php/7.0/fpm/php.ini 
+systemctl restart apache2
+cd
+ls
+cat tomcat-jmap.sh 
+vi tomcat-jmap.sh 
+cd /mnt/
+ls
+vi tomcat-jmap.sh 
+cd
+ls
+vi tomcat-jmap.sh 
+cd /mnt/
+vi tomcat-jmap.sh 
+ls
+cd
+ls
+cat input.txt 
+echo input.txt 
+echo cat input.txt 
+echo `cat input.txt`
+vi `cat input.txt`
+vi input.txt`
+vi input.txt
+echo `cat input.txt` | awk '{ print $4; }'
+echo `cat input.txt` | awk '{ print $5; }'
+echo `cat input.txt` | awk '{ print [$5]; }'
+echo `cat input.txt` | awk '{ print $5; }'
+vi input.txt 
+echo `cat input.txt` | awk '{ print $20; }'
+echo `cat input.txt` | tr -s ' ' | cut -d ' ' -f 4
+column input.txt 
+ls
+vi serv er1.js
+vi server1.js
+nodejs server1.js
+vi server1.js
+nodejs server1.js
+curl http://localhost:8081/api/getassesment/3
+ls
+cd
+cd suitecrm/
+systemctl restart apache2
+history
+nodejs server1.js
+nodejs server2.js
+clear
+nodejs server2.js
+cd
+ls
+cd /mnt/
+ls
+cd
+ls
+pwd
+cd /opt/
+ls
+cd
+history 
+exit
+cd
+apt0get update
+apt-get update
+apt-get install g++ -y
+dpkg -l C++
+dpkg -l g++
+vi hello.cpp
+g++ -o outfilename.bin hello.cp
+g++ -o outfilename.bin hello.cpp
+vi hello.cpp
+g++ -o outfilename.bin hello.cp
+g++ -o outfilename.bin hello.cpp
+./outfilename.bin 
+systemctl restart apache2
+mysql -u user -p
+ls
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+cd
+mkdir /mnt/courseware
+cd /mnt/
+ls
+zip -r courseware/
+zip -r courseware.zip courseware/
+ls
+unzip courseware.zip 
+ls
+cp courseware.zip /opt/
+cd /opt/
+ls
+unzip courseware.zip 
+ls
+which unzip
+cd
+cd /usr/share/icewm/
+ls
+vi menu 
+cp menu /root
+cd
+ls
+zip menu.zip menu
+ls
+cd
+exit
+cd
+ls
+exit
+cd
+ls -alh
+cd .idesktop/
+ls
+cd
+find / -name startup
+cd /home/ubuntu/
+ls
+find / -name startup
+cd .icewm/
+ls
+cat startup 
+ls
+cd
+cd /home/ubuntu/
+cat .ideskrc 
+cp .ideskrc /root/
+cd
+pwd
+ls
+echo "hello" > /opt/start
+cd /opt/
+ls
+cat start
+cd
+echo "idesk > /tmp/idesk.log" > /opt/start
+cat /opt/start 
+cat /home/ubuntu/.icewm/startup 
+ls
+cat final
+cat final.csv 
+cat input.txt 
+cp input.txt > /opt/start 
+cp input.txt /opt/start 
+cat /opt/start 
+cp input.txt /opt > start1
+cd /opt/
+ls
+rm input.txt 
+ls
+cat start 
+cd
+touch /opt/test
+cp input.txt /opt/test 
+echo "test" > /opt/sample
+cat /opt/sample 
+ls
+mkdir test 
+cd test/
+touch one two three
+ls
+cd
+cd /opt/
+ls
+mkdir flow
+cd
+ls
+cp test* /opt/flow/
+cp -a test* /opt/flow/
+cd /opt/flow/
+ls
+cd
+cp -a test/* /opt/flow/
+cd /opt/flow/
+ls
+which zip
+ls
+cd
+exit
+cd
+cd /opt/
+ls
+cd flow/
+lsa
+ls
+cd
+cp input.txt /opt/flow/one 
+cat /opt/flow/one 
+vi perform
+cp perform /opt/flow/one 
+cat /opt/flow/one 
+cd/opt/flow/one 
+cd /opt/flow/one 
+cd /opt/flow
+la
+ls
+cat one 
+cp input.txt /opt/flow/one 
+cd
+cp input.txt /opt/flow/one 
+cat /opt/flow/one 
+cp perform /opt/flow/one 
+cat /opt/flow/one 
+cd /opt/
+ls
+cd flow/
+ls
+cd .
+cd ..
+ls
+rmdir flow/
+rm -f flow/
+rm -rvf flow/
+ls
+cd
+touch .itest
+cp .itest /opt
+cd /opt/
+cat .itest 
+cd
+vi .itest 
+cp .itest /opt
+cd /opt/
+cat .itest 
+cd
+exit
+cd
+cd .idesktop/
+ls
+rm evince.lnk 
+rm 
+rm dia.lnk. 
+rm dia.lnk 
+rm pycharm.lnk 
+rm xedit.lnk 
+ls
+rm Rapidsvn.lnk 
+rm gpicview.lnk 
+ls
+cp firefox.lnk Geany.lnk
+vi Geany.lnk
+ls
+find / -name codelite
+cp firefox.lnk Geany.lnk
+vi Geany.lnk
+cp firefox.lnk codelite.lnk
+vi codelite.lnk
+which adobereader
+find / -name adobereader
+cd
+ls
+which scp
+find / -name firfox.png
+find / -name pixmaps
+cd /usr/share/pixmaps/
+ls
+cat firefox.png 
+ls
+cd
+find / -name rox.png
+find / -name rox-filer.png
+find / -name codelite
+find / -name codelite.png
+find / -name geany.png
+find / -name codelite.png
+find / -name firefox.png
+/usr/share/icons/hicolor/16x16/apps/firefox.png
+find / -name eclipse.png
+/usr/share/icons/hicolor/16x16/apps/eclipse.png
+find / -name rox-filer.png
+ls
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+clear
+nodejs login.js
+vi login.js
+nodejs login.js
+clear
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+nodejs login.js
+vi login.js
+ls
+vi getobject.js
+nodejs getobject.js
+clear
+nodejs getobject.js
+clear
+nodejs getobject.js
+nodejs login.js
+systemctl restart apache2
+kill -9 5946
+nodejs login.js
+cd
+ls
+cd
+wget https://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/my-projects/menu
+wget https://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/my-projects/menu /root
+wget https://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/my-projects/menu 
+wget https://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt
+wget http://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt'
+wget https://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt
+wget https://myofficeprojects15062018.s3.amazonaws.com/s3test.txt
+wget http://myofficeprojects15062018.s3.amazonaws.com/s3test.txt
+wget --no-check-certification --no-proxy  'http://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt'
+wget --no-check-certificate --no-proxy  'http://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt'
+aws s3 cp s3://myofficeprojects15062018/s3test.txt
+apt-get update
+spt-get install awscli -y
+apt-get install awscli
+aws s3 cp s3://myofficeprojects15062018/s3test.txt
+pip install awscli
+aws s3 cp s3://myofficeprojects15062018/s3test.txt
+aws-version
+aws --version
+ls
+exit
+systemctl restart apache2
+cd
+aws s3 ls s3://myofficeprojects15062018/s3test.txt
+aws configure
+aws s3 cp s3://myofficeprojects15062018/s3test.txt /root
+aws s3 cp s3://myofficeprojects15062018/s3test.txt ~/Downloads
+aws s3 cp s3://s3-ap-southeast-1.amazonaws.com/myofficeprojects15062018/s3test.txt
+aws s3 cp s3://myofficeprojects15062018/s3test.txt /root
+aws s3 cp s3://myofficeprojects15062018/s3test.txt /mnt
